@@ -43,32 +43,43 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "WildCampsy",
+    link: "https://github.com/TechTirth/WildCampsy",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "WildCampsy is a website where users can create and review campgrounds. In order to review or create a campground, you must have an account. Search campground by name or location. Sort campgrounds by highest rating, most reviewed, lowest price, or highest price.",
+    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
+    title: "TalkHub",
+    link: "https://github.com/TechTirth/TalkHub",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A MERN based Messaging application, with features such as 1 on 1 messaging, group messaging and also real time chatting with an indication when the other user is typing.",
+    technologies: ["JavaScript", "React", "Node.js", "Express", "Socket.io"],
+  },
+  {
+    title: "Bankify",
+    image: project3,
+    link: "https://github.com/TechTirth/Bankify-alt",
+    description:
+      "Built with Next.js, Bankify is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Appwrite",
+      "Plaid",
+      "Dwolla",
+      "ShadCN",
+    ],
+  },
+  {
+    title: "Promptopia",
+    link: "https://github.com/TechTirth/Promptopia",
+    image: project2,
+    description:
+      "Next.js application that highlights the key features of Next.js along with a comprehensive CRUD AI Prompt sharing system utilizing a MongoDB database and implementing NextAuth authentication.",
+    technologies: ["Next.js", "Tailwind CSS", "MongoDB"],
   },
 ];
 
